@@ -69,7 +69,7 @@ bool desktop_main_input_callback(InputEvent* event, void* context) {
             } else if(event->key == InputKeyDown) {
                 main_view->callback(DesktopMainEventOpenArchive, main_view->context);
             } else if(event->key == InputKeyLeft) {
-                main_view->callback(DesktopMainEventOpenClock, main_view->context); // OPENS Clock
+                main_view->callback(DesktopMainEventOpenTikTok, main_view->context); // OPENS Clock
             } else if(event->key == InputKeyRight) {
                 // Right key is handled by animation manager
                 // GOES TO PASSPORT NO MATTER WHAT

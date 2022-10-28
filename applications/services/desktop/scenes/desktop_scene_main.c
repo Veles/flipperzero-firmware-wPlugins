@@ -130,6 +130,12 @@ bool desktop_scene_main_on_event(void* context, SceneManagerEvent event) {
             consumed = true;
             break;
         }
+        case DesktopMainEventOpenTikTok: {
+            LoaderStatus status =
+                loader_start(desktop->loader, "Applications", EXT_PATH("/apps/Main/TikTok_Remote.fap"));
+            consumed = true;
+            break;
+        }
         case DesktopMainEventOpenFavoritePrimary:
             DESKTOP_SETTINGS_LOAD(&desktop->settings);
             if(desktop->settings.favorite_primary.is_external) {

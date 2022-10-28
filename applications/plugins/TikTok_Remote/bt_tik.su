@@ -1,0 +1,8 @@
+applications_user/bt_tik_tok/bt_tik.c:33:10:bt_tik_exit_confirm_view	0	static
+applications_user/bt_tik_tok/bt_tik.c:38:10:bt_tik_exit	0	static
+applications_user/bt_tik_tok/bt_tik.c:43:6:bt_tik_connection_status_changed_callback	16	static
+applications_user/bt_tik_tok/bt_tik.c:12:6:bt_tik_submenu_callback	0	static
+applications_user/bt_tik_tok/bt_tik.c:21:6:bt_tik_dialog_callback	0	static
+applications_user/bt_tik_tok/bt_tik.c:55:8:bt_tik_app_alloc	32	static
+applications_user/bt_tik_tok/bt_tik.c:100:6:bt_tik_app_free	16	static
+applications_user/bt_tik_tok/bt_tik.c:127:9:bt_tik_app	24	static
