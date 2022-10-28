@@ -183,7 +183,6 @@ void ws_protocol_decoder_acurite_606tx_feed(void* context, bool level, uint32_t 
                 } else {
                     instance->decoder.parser_step = Acurite_606TXDecoderStepReset;
                 }
-
             } else {
                 instance->decoder.parser_step = Acurite_606TXDecoderStepReset;
             }
