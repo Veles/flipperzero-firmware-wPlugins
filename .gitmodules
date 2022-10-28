@@ -31,3 +31,6 @@
 [submodule "applications/plugins/dap_link/lib/free-dap"]
 	path = applications/plugins/dap_link/lib/free-dap
 	url = https://github.com/ataradov/free-dap.git
+[submodule "applications_user/TikTok_Remote"]
+	path = applications_user/TikTok_Remote
+	url = https://github.com/Veles/flipper-zero-tiktok-remote.git
