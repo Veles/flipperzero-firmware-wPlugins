@@ -84,11 +84,8 @@ void nfc_scene_mf_ultralight_emulate_widget_config(Nfc* nfc, bool auth_attempted
 
 void nfc_scene_mf_ultralight_emulate_on_enter(void* context) {
     Nfc* nfc = context;
-<<<<<<< HEAD
     uint32_t state =
         scene_manager_get_scene_state(nfc->scene_manager, NfcSceneMfUltralightEmulate);
-=======
->>>>>>> 4c0c70ff (Merge branch 'fz-dev' into dev)
 
     // Setup Widget
     nfc_scene_mf_ultralight_emulate_widget_config(nfc, false);
