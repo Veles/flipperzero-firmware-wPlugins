@@ -116,6 +116,7 @@ void subghz_scene_receiver_info_on_enter(void* context) {
 void subghz_scene_receiver_info_on_enter(void* context) {
     SubGhz* subghz = context;
 
+    DOLPHIN_DEED(DolphinDeedSubGhzReceiverInfo);
     subghz_scene_receiver_info_draw_widget(subghz);
 }
 
